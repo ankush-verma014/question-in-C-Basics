@@ -1,0 +1,95 @@
+1. Write a c program to find previous multiple of 10 of a given 2 digit number only
+
+    sample input : int a = 26;
+
+     output : 20;
+
+#include<stdio.h>
+int main () {
+
+    int a=26;
+    a= a/10;
+    printf("%d",a*10);
+}
+
+______________________________________________________________________
+
+
+2.  Write a c program to find next multiple of 10 of a given 2 digit number only
+
+    sample input : int a = 34;
+
+     output : 40;
+
+#include<stdio.h>
+int main () {
+
+    int a=34;
+    a= a%10;
+    printf("%d",a*10);
+}
+__________________________________________________________________________________________
+
+3. without using control statement write a c program to determine the next or previous multiple of 10 for a give 2 digit number.
+   ___
+    if the last digit of given number is greater than or equal to 5, the program should print the next multiple of 10.
+
+___
+    if the last digit of given number is less than or equal to 5, the program should print the previous multiple of 10.
+
+
+sample1 input : int a = 34;
+output1 : 30;
+
+sample2 input : int a = 25;
+output2 : 30;
+
+sample3 input : int a = 86;
+output1 : 90;
+#include<stdio.h>
+
+int main() {
+
+    int a=84;
+    printf("%d",((a%10)/5+ a/10)*10);
+    return 0;
+}
+_________________________________________________________________________
+
+4. write the c program to check and print that given number is even or odd without using ternary operator and control statement 
+
+ sample input : int a = 10;
+  output  :even
+
+sample input : int a = 125;
+  output : odd
+
+#include<stdio.h>
+int main () {
+
+    int n = 125;
+    
+
+    n%2==0 && printf("even number") || n%2 != 0 && printf("odd number");
+}
+____________________________________________________________
+5. write a c program to find maximum number among two numbers without using ternary operator and control statement.
+
+input : int a=10,b=20;
+output : 20
+
+#include<stdio.h>
+
+int main() {
+
+    int a=10,b=20;
+
+    a>b && printf("a is greater than b") || printf(" b is grater than a");
+
+    return 0;
+}
+
+
+
+
+

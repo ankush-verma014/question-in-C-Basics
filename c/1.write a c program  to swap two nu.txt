@@ -1,0 +1,60 @@
+1.write a c program  to swap two number without third variable
+input as a= 10 , b= 20 0utput a=20 b= 10
+
+#include<stdio.h>
+int main () {
+
+    int a=10 , b= 20;
+
+    a= a+b;
+    b= a-b;
+    a= a-b;
+
+    printf("a=%d b=%d", a,b);
+}
+________________________________________________________________________________________
+
+2.write a c program  to swap two number with third variable
+input as a= 10 , b= 20 0utput a=20 b= 10 
+
+#include<stdio.h>
+int main () {
+
+    int a=10 , b= 20 , temp;
+
+    temp = a;
+     a =  b;
+    b = temp;
+
+
+    printf("a=%d b=%d", a,b,temp);
+}
+________________________________________________________________________________________________________
+
+3.write a c program make the sum of two digit number without using without using + operator
+a= 5 b=6 output 11
+#include<stdio.h>
+int main () {
+ int a= 5, b= 6;
+
+ printf("%d",a-(-b));
+}
+
+__________________________________________________________________________________
+
+
+
+4. write a c program to make sum of two digit number 
+input as n=34 output 7
+#include<stdio.h>
+int main () {
+int n=34, a,b;
+
+a=n%10;
+b= n/10;
+
+printf("sum: %d",a+b);
+
+
+}
+
